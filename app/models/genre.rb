@@ -14,6 +14,5 @@ class Genre < ActiveRecord::Base
     self.artists each do |t|
       t.name
     end
-
   end
 end
